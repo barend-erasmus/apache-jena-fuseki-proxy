@@ -49,6 +49,7 @@ function getTokenFromWebRequest(req) {
 
 if (!module.parent) {
     server.listen(3031);
+    console.log(`Listening on port 3031`);
 }
 
 module.exports = {
