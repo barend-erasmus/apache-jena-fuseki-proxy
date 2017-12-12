@@ -1,0 +1,29 @@
+{
+  "name": "apache-jena-fuseki-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "mocha ./src/app.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barend-erasmus/apache-jena-fuseki-proxy.git"
+  },
+  "author": "Barend Erasmus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barend-erasmus/apache-jena-fuseki-proxy/issues"
+  },
+  "homepage": "https://github.com/barend-erasmus/apache-jena-fuseki-proxy#readme",
+  "dependencies": {
+    "http-proxy": "^1.16.2",
+    "jsonwebtoken": "^8.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "supertest": "^3.0.0"
+  }
+}
